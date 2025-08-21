@@ -1,3 +1,30 @@
 body {
+    /* font size */
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
   }
+
+
+  /* header format */
+    header{
+      display: flex;  
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px, 60px;
+    }
+
+    /* logo sizes and width */
+    .logo {
+        font-size: 24px;
+        font-weight: 800px;
+    }
+
+     /* css logo of MIHEALTH*/
+    .logo .mi{
+        color: #c42121; 
+    }
+
+    .logo .health{
+        color: #8bc232;
+    }
