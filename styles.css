@@ -3,6 +3,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    /* background-color: ; */
   }
 
 
@@ -11,7 +12,7 @@ body {
       display: flex;  
       justify-content: space-between;
       align-items: center;
-      padding: 20px, 60px;
+      padding: 20px 60px;
     }
 
     /* logo sizes and width */
@@ -28,3 +29,86 @@ body {
     .logo .health{
         color: #8bc232;
     }
+
+    
+    nav a {
+     margin-left: 20px;
+     text-decoration: none;
+     color: black;
+     font-weight: 500;
+    }
+
+    /* quote? section */
+   .quote {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center ;
+    padding: 60px;
+    background-color: #f2f2f2;
+   }
+
+   .quote-text h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+   }
+
+   .quote-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+
+   }
+
+   /* quote button */
+   .btn{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+
+   }
+    
+    /* quote image  */
+      .quoteImage{
+        display: flex;
+        gap: 20px;
+      }
+
+   /* imagecard position */
+   .imageCard{
+    position: relative;
+    overflow: hidden;
+   }
+
+   /* imagecard  */
+   .imageCard img{
+   width: 100%;
+   border-radius: 8px; 
+   }
+
+   /* imagecard formate */
+   .imageCard span{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    background-color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 700;
+   }
+
+   .imageCard h3{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    background-color: #8bc232;
+    padding: 8px 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0
+    
+
+   }
