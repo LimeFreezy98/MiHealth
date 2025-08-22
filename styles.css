@@ -20,7 +20,7 @@ body {
     /* logo sizes and width */
     .logo {
         font-size: 24px;
-        font-weight: 800px;
+        font-weight: 800;
     }
 
      /* css logo of MIHEALTH*/
@@ -46,7 +46,7 @@ body {
     grid-template-columns: 1fr 2fr;
     align-items: center ;
     padding: 60px;
-    background-color: #f2f2f2;
+    background-color: #e5e5e5;;
    }
 
    .quote-text h1 {
@@ -82,12 +82,16 @@ body {
    .imageCard{
     position: relative;
     overflow: hidden;
+    flex: 1;
+    max-width: 250px;
    }
 
    /* imagecard  */
    .imageCard img{
    width: 100%;
-   border-radius: 8px; 
+   height: auto;
+   border-radius: 8px;
+   object-fit: cover;
    }
 
    /* imagecard formate */
